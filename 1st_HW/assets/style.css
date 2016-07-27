@@ -7,12 +7,12 @@ body {
 	font-size: 24px;
 	margin: 0 auto 0 auto;
 	padding: 20px;
-	background: #ccc;
+	background-color: #cccccc;
 }
 
 .header {
 	
-	color: #333;
+	background-color: #ffffff;
 	overflow: auto;
 	width: 960px;
 	margin: 0 auto;
@@ -22,45 +22,61 @@ body {
 .header h1 {
 	display: inline-block;
 	padding: 20px;
-	background-color: red;
+	background-color: #4aaaa5;
 }
 
-.about {
+.nav {
 	float: right;
-	background-color: red;
+	background-color: #ffffff;
 	margin-bottom: 0;
+	margin-right: 20px;
 	color: #333;
-	padding: 20px;
+	padding: 20px 0px 20px 0px;
 }
 
-.about li {
+.nav li {
 	display: inline;
 }
 
+.header h2 {
+	display: inline-block;
+
+}
 
 .content {
-	width: 960px;
+		width: 960px;
 	margin: 0 auto;
 	background-color: white;	
 }
 
 .content img {
 	float: left;
-
 }
 
+
 .text {
-	float: right;
+	float: left;
+	width: 650px;
+	padding-left: 20px;
+
 
 }
 
 
 .links {
 	float: right;
-	}
+}
 
 .footer {
-	position: bottom;
-	height: 20px;
-	background-color: yellow;
-}
+	position: absolute;
+	font-color: white;
+	text-align: center;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	background-color: #666666;
+	margin: 0 auto;
+
+	
+}	
