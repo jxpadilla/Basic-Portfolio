@@ -49,12 +49,18 @@ body {
 
 }
 
+.text {
+	float: right;
+
+}
+
+
 .links {
 	float: right;
 	}
 
 .footer {
-	position: absolute;
+	position: bottom;
 	height: 20px;
 	background-color: yellow;
 }
