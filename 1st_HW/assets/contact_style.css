@@ -1,5 +1,5 @@
 /**
-* My Portfolio
+* My Portfolio Contact
 **/
 
 
@@ -25,7 +25,7 @@ body {
 
 .header h1 {
 	font-size: 25px;
-	font-color: #777777;
+	color: black;
 	display: inline-block;
 	padding: 20px;
 	background-color: #4aaaa5;
@@ -58,35 +58,93 @@ body {
 .main-bio {
 	
 	width: 650px;
+	height: 600px;
 	background-color: white;
 	overflow: hidden;
 	float: left;
 
 }
 
-.about h2 {
+.contact h2 {
+	/**font-size: 25px;
+	padding-top: 15px;
+	padding-left: 20px;**/
 	font-size: 25px;
+	color: #777777;
+	display: inline-block;
+	padding: 20px;
+	
+}
+
+.name_box {
+	width: 600px;
+	height: 60px;
+	background-color: white;
+	overflow: hidden;
+	float: left;
 	padding-left: 20px;
 }
 
-.main-bio img {
-	
-	
-}
- 
-.img {
-	width: 270px;
+.full_name {
+	width: 575px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #DCDCDC;
+	overflow: hidden;
 	float: left;
+	padding-top: 5px;
+}
+
+.email_box {
+	width: 600px;
+	height: 60px;
+	background-color: white;
+	overflow: hidden;
+	float: left;
+	padding-left: 20px;
+}
+
+.email {
+	width: 575px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #DCDCDC;
+	overflow: hidden;
+	float: left;
+	padding-top: 5px;
+}
+
+.msg_box {
+	width: 600px;
+	height: 300px;
+	background-color: white;
+	overflow: hidden;
+	float: left;
+	padding-left: 20px;
+}
+
+.msginput {
+	width: 575px;
+	height: 250px;
+	background-color: white;
+	border: 1px solid #DCDCDC;
+	overflow: hidden;
+	float: left;
+	
+}
+
+.submit_box {
+	width: 70px;
+	height: 20px;
+	background-color: #4aaaa5;
+	overflow: hidden;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
 
 }
 
-.text {
-	/**margin: 0 0 0 10px;**/
-	font-size: 20px;
-	padding: 5px 10px 5px 5px;
 
-
-}
 
 .links {
 	width: 270px;
